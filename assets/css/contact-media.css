@@ -1,0 +1,56 @@
+@media only screen and (max-width: 980px){
+    .main-section{
+      max-width: 650px;
+    
+    }
+    #masthead{
+      width: 100%;
+
+    }
+    body{
+      line-height: 100%
+    }
+    .moveR{
+      margin-right: 35px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .main-section{
+      max-width: 768px;
+    }
+    #masthead{
+      width: 100%;
+  
+    }
+    body{
+      line-height: 100%
+    }
+    .moveR{
+      margin-right: 35px;
+    }
+    
+    }
+    @media only screen and (max-width: 640px){
+        .main-section{
+          max-width: 600px;
+          max-height: 100% ;
+          margin-top: 15px;
+        }
+        #masthead{
+          width: 98%;
+      
+        }
+        body{
+          line-height: 100%
+        }
+        .moveR{
+          margin-right: 15px;
+        }
+        #logo{
+            width:100%
+        }
+        nav{
+            margin-right: 150px;
+        }
+        
+        }

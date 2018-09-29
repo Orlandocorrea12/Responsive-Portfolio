@@ -7,62 +7,54 @@
     <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/contact-media.css" />
     <script src="main.js"></script>
 </head>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <body>
-    <div class=" noMargin pd">
-        <div class="left">
-            <h1 class="left">Orlando Correa</h1>
-
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Orlando Correa</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a class="moveR" href="contact.html">Contact</a>
+            </nav>
         </div>
-        <div class="right">
+    </header>
 
-            <a href="index.html">About</a> |
-            <a href="portfolio.html">Portfolio</a> |
-            <a href="contact.html">Contact</a>
-        </div>
-    </div>
-    <div class="clear"></div>
-    <div class="mainContentBackground">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
 
-        <div class="padding border mainContentContainer px">
-            <h2 class="DifColor">Contact</h2>
-            <hr>
-            <form>
-                Name:
-                <br>
-                <input class="input-element" type="text" name="name">
-                <br> Email:
-                <br>
-                <input class="input-element" type="text" name="name">
-                <br>
-            </form>
-            <form action="/action_page.php">
-                Message:
-                <br>
-                <textarea name="message" rows="10" cols="100"></textarea>
-                <br>
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
                 <input type="submit">
             </form>
 
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <hr id="bottom">
-        <footer>
-            <p>Copyright ©</p>
-        </footer>
+        </section>
+
     </div>
 
-
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
 </body>
 
 </html>
